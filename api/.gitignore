@@ -1,0 +1,57 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+bin/
+obj/
+# VS Code directories
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code settings
+.vscode/
+
+# Roslyn cache directories
+.vscode
+.vscode-test
+
+# .NET Core project, package, and lock files
+project.lock.json
+project.fragment.lock.json
+project.json
+project.json.lock
+**/*.pidb
+**/*.svclog
+
+# .NET Core auto-generated files
+*.dbmdl
+*.jfm
+packages/
+*.nupkg
+*.psess
+*.sln
+*.vspscc
+
+# Rider
+.idea/
+*.sln.iml
