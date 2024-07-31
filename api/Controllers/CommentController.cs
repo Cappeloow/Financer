@@ -66,11 +66,7 @@ namespace api.Controllers
             {
                 return BadRequest(ModelState);
             }  
-
-        if (!await _commentRepo.CommentExistsAsync(id))
-            {
-                return NotFound("Comment does not exist");
-            }
+            
             var commentModel = await _commentRepo.UpdateAsync(id, commentDto);
             return Ok(commentModel);
         }
